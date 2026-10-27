@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+   
+      <link rel="stylesheet" href="/frontend/src/css/accueil.css">
+     <link rel="stylesheet" href="/frontend/src/css/style.css">
+ 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="livraison-bar">
+    <span class="arrow" id="prev">&lt;</span>
+
+    <span class="text" id="message" data-alt="Livraison partout au Maroc ">
+        Livraison gratuite pour les commandes supérieures à 1500 DH.
+    </span>
+
+    <span class="arrow" id="next">&gt;</span>
+</div>
+ <div class="info-bar">
+    <span class="promo-text">
+        Imbattable en prix. Inarrêtable en promo. Express in livraison
+    </span>
+
+    <span class="social-icons">
+         <a href="https://wa.me/1234567890" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    </span>
+
+    <span class="other-links">
+         <a href="#" id="btnCU">Contact Us </a>
+        <a href="#" id="btnPN">A propos de nous</a>
+        <a href="#" id="btnFAS">FAQs</a>
+    </span>
+</div>
+ <nav class="main-nav">
+    <!-- Logo en texte -->
+    <a href="#" class="logo">
+        <span class="logo-primary">HW</span>
+        <span class="logo-secondary">Cosmetic Store</span>
+    </a>
+
+    <!-- Liens navigation -->
+    <ul class="nav-links">
+        <li><a href="#" id="btnaccueil">Accueil</a></li>
+        <li><a href="#" id="btnvisage">Visage</a></li>
+        
+        <li><a href="#" id="btncorps">Corps</a></li> <li> 
+        
+    </ul>
+
+     <div class="header-icons">
+    <!-- Recherche -->
+    <a href="#"><i class="fas fa-search"></i></a>
+    
+    <!-- Login / compte -->
+    <a href="#"><i class="fas fa-user"></i></a>
+    
+    
+    
+    <!-- Panier -->
+    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+</div>
+</nav>
+    
+<section class="faq-contact">
+
+    <!-- COLONNE FAQ -->
+    <div class="faq-left">
+        <h2>QUESTIONS FRÉQUEMMENT POSÉES</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Est-ce que je recevrai le même produit que celui que je vois sur la photo ?
+                <span class="faq-arrow"></span>
+            </div>
+            <div class="faq-answer">
+                 "Oui, vous recevrez exactement le même produit que celui présenté sur la photo.
+                  Nous nous engageons à fournir des images fidèles et détaillées de nos articles afin que 
+                  vous puissiez acheter en toute confiance. Toutefois, veuillez noter que de légères 
+                  variations de couleur peuvent apparaître en raison des paramètres d'affichage de votre écran."
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Où puis-je consulter mon reçu de vente ?
+                <span class="faq-arrow"></span>
+            </div>
+            <div class="faq-answer">
+                 "Après votre achat, vous recevrez automatiquement votre reçu de vente par e-mail. 
+                 Si vous ne le trouvez pas, vérifiez votre dossier de courriers indésirables. Vous pouvez également 
+                 consulter votre reçu dans votre compte client sur notre site. Pour toute assistance, n'hésitez pas à nous contacter."
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                Comment puis-je retourner un article ?
+                <span class="faq-arrow"></span>
+            </div>
+            <div class="faq-answer">
+                "Si vous souhaitez retourner un article, veuillez nous contacter dans un délai de [X] jours après réception de votre commande. 
+                L'article doit être non utilisé, dans son emballage d'origine et en parfait état. Pour initier un retour, envoyez-nous un e-mail à [ton email de contact] avec votre numéro de commande et la raison du retour. 
+                Nous vous guiderons sur la procédure à suivre."
+            </div>
+        </div>
+
+         <div class="faq-item">
+            <div class="faq-question">
+                Allez-vous reapprovisionner les articles indiqués comme en rupture de stock ?
+                <span class="faq-arrow"></span>
+            </div>
+            <div class="faq-answer">
+                 "Nous faisons de notre mieux pour réapprovisionner rapidement les articles en rupture de stock. 
+                 Certains produits populaires reviennent régulièrement, tandis que d'autres éditions limitées peuvent ne pas être renouvelées.
+                  N'hésitez pas à nous contacter pour plus d'informations ou à activer les notifications pour être informé dès qu'un produit est à nouveau disponible !"
+            </div>
+        </div>
+
+    </div>
+
+    <!-- COLONNE CONTACT -->
+    <div class="contact-right">
+        <h2>CONTACTEZ-NOUS POUR TOUTE QUESTION</h2>
+
+          <form id="contact-form" onsubmit="sendMail(event)">
+    <input type="text" name="user_name" placeholder="Your Name" required>
+    <input type="email" name="user_email" placeholder="Your Email" required>
+    <input type="text" name="user_phone" placeholder="Phone Number">
+    <input type="text" name="user_company" placeholder="Company">
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">ASK A QUESTION</button>
+</form>
+    </div>
+
+</section>
+ <div class="more-info">
+    <p class="info-title">Pour plus d’informations</p>
+
+    <div class="info-links">
+        <a href="https://wa.me/212600000000" target="_blank">📱 WhatsApp : +212 6 00 00 00 00</a>
+        <a href="https://instagram.com/dreamshop.ma" target="_blank">📸 Instagram : @cosmeticstore.ma</a>
+        <a href="mailto:contact@dreamshop.ma">✉️ Gmail : storecosmetic183@gmail.com</a>
+        <a href="https://facebook.com/dreamshop.ma" target="_blank">📘 Facebook : storecosmetic</a>
+    </div>
+</div>
+<section class="advantages">
+    <div class="adv-container">
+
+        <div class="adv-box">
+            <div class="adv-icon">🚚</div>
+            <h3>LIVRAISON GRATUITE</h3>
+            <p>Pour toute commande supérieure à 1000 Dh.</p>
+        </div>
+
+        <div class="adv-box">
+            <div class="adv-icon">💳</div>
+            <h3>PAIEMENT À LA LIVRAISON</h3>
+            <p>Achetez en ligne et payez en espèces à votre porte.</p>
+        </div>
+
+        <div class="adv-box">
+            <div class="adv-icon">🛡️</div>
+            <h3>GARANTIE TOTALE</h3>
+            <p>Bénéficiez de 7 jours de garantie sur tous nos produits.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<footer>© 2026 – Cosmetic Store</footer>
+<script src="/frontend/src/controller/contact.js"></script>
+<script src="/frontend/src/controller/t.js"></script>
+ 
+</body>
+</html>

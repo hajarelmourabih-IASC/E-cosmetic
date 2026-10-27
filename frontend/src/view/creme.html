@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>les cremes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="/frontend/src/css/style.css">
+ 
+</head>
+
+<body>
+  
+
+ 
+<div class="livraison-bar">
+    <span class="arrow" id="prev">&lt;</span>
+
+    <span class="text" id="message" data-alt="Livraison partout au Maroc ">
+        Livraison gratuite pour les commandes supérieures à 1500 DH.
+    </span>
+
+    <span class="arrow" id="next">&gt;</span>
+</div>
+ <div class="info-bar">
+    <span class="promo-text">
+        Imbattable en prix. Inarrêtable en promo. Express in livraison
+    </span>
+
+    <span class="social-icons">
+         <a href="https://wa.me/1234567890" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    </span>
+
+    <span class="other-links">
+        <a href="#" id="btnCU">Contact Us </a>
+        <a href="#" id="btnPN">A propos de nous</a>
+        <a href="#" id="btnFAS">FAQs</a>
+    </span>
+</div>
+ <nav class="main-nav">
+    <!-- Logo en texte -->
+    <a href="#" class="logo">
+        <span class="logo-primary">HW</span>
+        <span class="logo-secondary">Cosmetic Store</span>
+    </a>
+
+    <!-- Liens navigation -->
+    <ul class="nav-links">
+        <li><a href="#" id="btnaccueil">Accueil</a></li>
+        <li><a href="#" id="btnvisage">Visage</a></li>
+        
+        <li><a href="#" id="btncorps">Corps</a></li> <li> 
+         
+    </ul>
+
+  <div class="header-icons">
+    <a href="#"><i class="fas fa-search" id="recherche"></i></a>
+    <a href="#"><i class="fas fa-user" id="btncompte"></i></a>
+    <a href="#"><i class="fas fa-shopping-cart" id="btnPanier"></i></a>
+  </div>
+
+</nav>
+ 
+
+<section class="page-title">
+  <h2>Crémes</h2>
+  <img src="/frontend/assets/cremes.jpg" class="page-image" alt="Peau sèche">
+  <p>Découvrez notre sélection de crèmes expertes. Des formules riches et performantes pour nourrir, apaiser et sublimer votre peau jour après jour.</p>
+</section>
+
+<section class="products-container">
+<div class="product-grid">
+
+<!-- 1 -->
+<div class="product-card" id="product-54">
+<img src="/frontend/assets/creme1.jpg">
+<div class="product-info">
+<h3>CETAPHIL Crème Hydratante 250g</h3>
+    <p>Hydratation intense et durable pour les peaux sèches et sensibles.</p>
+
+    <div class="details">
+      <b>Composants :</b> Glycérine, Panthénol, Niacinamide<br>
+      <b>Utilisation :</b> 1 à 2 fois par jour sur peau propre<br>
+      <b>Détails :</b> Texture riche, non grasse, absorption rapide<br>
+      <b>Conseils :</b> Convient au visage et au corps, même pour peaux sensibles
+    </div>
+<div class="rating">★★★★☆</div>
+<div class="price">130 dh</div>
+<button class="btn-cart" data-product-id="54">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="product-card" id="product-55">
+<img src="/frontend/assets/creme2.jpg">
+<div class="product-info">
+<h3>SA crème anti-rugosités</h3>
+ 
+<p>Aide à lisser la peau rugueuse et à restaurer la barrière cutanée.</p>
+
+    <div class="details">
+      <b>Composants :</b> Acide salicylique, Céramides, Urée, Niacinamide<br>
+      <b>Utilisation :</b> 1 à 2 fois par jour sur peau propre<br>
+      <b>Détails :</b> Texture riche, non comédogène, sans parfum<br>
+      <b>Conseils :</b> Idéale pour peau rugueuse, kératose pilaire, coudes et genoux
+    </div>
+<div class="rating">★★★★★</div>
+<div class="price">120 dh</div>
+<button class="btn-cart" data-product-id="55">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="product-card" id="product-56">
+<img src="/frontend/assets/creme3.jpg">
+<div class="product-info">
+<h3>Le Petit Marseillais Lait Corps Nutrition</h3>
+ 
+<p>Nourrit intensément la peau et la laisse douce et souple.</p>
+
+    <div class="details">
+      <b>Composants :</b> Beurre de karité, Huile d’amande douce<br>
+      <b>Utilisation :</b> Quotidienne, après la douche<br>
+      <b>Détails :</b> Texture légère, absorption rapide, parfum agréable<br>
+      <b>Conseils :</b> Idéal pour peaux sèches à très sèches
+    </div>
+<div class="rating">★★★★☆</div>
+<div class="price">50 dh</div>
+<button class="btn-cart" data-product-id="56">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="product-card" id="product-57">
+<img src="/frontend/assets/creme4.jpg">
+<div class="product-info">
+<h3>NIVEA LAIT CORPS BEURRE DE CACAO 250ML</h3>
+ 
+<p>Hydratation profonde et nutrition intense pour peaux sèches.</p>
+
+    <div class="details">
+      <b>Composants :</b> Beurre de cacao, Huile d’avocat, Vitamine E<br>
+      <b>Utilisation :</b> Quotidienne, matin et/ou soir<br>
+      <b>Détails :</b> Texture onctueuse, pénètre rapidement, parfum cacao<br>
+      <b>Conseils :</b> Idéal pour peaux sèches à très sèches
+    </div>
+<div class="rating">★★★★☆</div>
+<div class="price">45 dh</div>
+<button class="btn-cart" data-product-id="57">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="product-card" id="product-58">
+<img src="/frontend/assets/creme5.jpg">
+<div class="product-info">
+<h3>Mixa Corps Intensif Lait Anti-Dessèchement</h3>
+ 
+<p>Hydratation intense 48h pour peaux sèches et sensibles.</p>
+
+    <div class="details">
+      <b>Composants :</b> Glycérine, Allantoïne, Huile nourrissante<br>
+      <b>Utilisation :</b> Quotidienne, matin et/ou soir<br>
+      <b>Détails :</b> Texture fluide, non grasse, absorption rapide<br>
+      <b>Conseils :</b> Convient aux peaux sèches, sensibles et réactives
+    </div>
+<div class="rating">★★★★☆</div>
+<div class="price">40 dh</div>
+<button class="btn-cart" data-product-id="58">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="product-card" id="product-59">
+<img src="/frontend/assets/creme6.jpg">
+<div class="product-info">
+<h3>Nivea Crème Milk Lait Corporel Déo-Hydratant -Profonde</h3>
+ 
+<p>Hydratation profonde et protection déodorante pour une peau douce toute la journée.</p>
+
+    <div class="details">
+      <b>Composants :</b> Beurre de karité, Huile d’amande douce, Vitamine E<br>
+      <b>Utilisation :</b> Quotidienne, après la douche<br>
+      <b>Détails :</b> Texture riche, absorption rapide, effet fraîcheur<br>
+      <b>Conseils :</b> Convient aux peaux sèches à très sèches
+    </div>
+<div class="rating">★★★★☆</div>
+<div class="price">50 dh</div>
+<button class="btn-cart" data-product-id="59">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 7 -->
+<div class="product-card" id="product-60">
+<img src="/frontend/assets/creme7.jpg">
+<div class="product-info">
+<h3>ACM – Dépiwhite Lait Corps Eclaircissant – 500ml</h3>
+ 
+<p>Aide à unifier et éclaircir le teint tout en hydratant la peau.</p>
+
+    <div class="details">
+      <b>Composants :</b> Complexe Dépiwhite®, Glycérine, Agents hydratants<br>
+      <b>Utilisation :</b> 1 à 2 fois par jour sur peau propre<br>
+      <b>Détails :</b> Texture légère, non grasse, absorption rapide<br>
+      <b>Conseils :</b> Idéal pour taches pigmentaires et teint irrégulier
+    </div>
+<div class="rating">★★★★★</div>
+<div class="price">250 dh</div>
+<button class="btn-cart" data-product-id="60">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 8 -->
+<div class="product-card" id="product-61">
+<img src="/frontend/assets/creme8.jpg">
+<div class="product-info">
+<h3>NUXE PRODIGIEUX LAIT PARFUME 200 ML</h3>
+ 
+<p>Hydrate, adoucit la peau et la parfume délicatement aux notes iconiques de NUXE.</p>
+
+    <div class="details">
+      <b>Composants :</b> Huiles végétales, Glycérine, Parfum Prodigieux®<br>
+      <b>Utilisation :</b> Quotidienne, matin et/ou soir<br>
+      <b>Détails :</b> Texture soyeuse, non grasse, parfum longue durée<br>
+      <b>Conseils :</b> Convient à tous types de peau
+    </div>
+<div class="rating">★★★★☆</div>
+<div class="price">190 dh</div>
+<button class="btn-cart" data-product-id="61">Ajouter au panier</button>
+</div>
+</div>
+
+ 
+ 
+</div>
+</section>
+<section class="advantages">
+    <div class="adv-container">
+
+        <div class="adv-box">
+            <div class="adv-icon">🚚</div>
+            <h3>LIVRAISON GRATUITE</h3>
+            <p>Pour toute commande supérieure à 1000 Dh.</p>
+        </div>
+
+        <div class="adv-box">
+            <div class="adv-icon">💳</div>
+            <h3>PAIEMENT À LA LIVRAISON</h3>
+            <p>Achetez en ligne et payez en espèces à votre porte.</p>
+        </div>
+
+        <div class="adv-box">
+            <div class="adv-icon">🛡️</div>
+            <h3>GARANTIE TOTALE</h3>
+            <p>Bénéficiez de 7 jours de garantie sur tous nos produits.</p>
+        </div>
+
+    </div>
+</section>
+ 
+
+<footer>© 2026 – Cosmetic Store</footer>
+<script src="/frontend/src/controller/code.js"></script>
+<script src="/frontend/src/controller/t.js"></script>
+
+</body>
+</html>
+

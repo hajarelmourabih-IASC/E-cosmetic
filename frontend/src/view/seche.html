@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Produits Peau Sèche</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/frontend/src/css/seche.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="livraison-bar">
+    <span class="arrow" id="prev">&lt;</span>
+    <span class="text" id="message" data-alt="Livraison partout au Maroc ">
+        Livraison gratuite pour les commandes supérieures à 1500 DH.
+    </span>
+    <span class="arrow" id="next">&gt;</span>
+</div>
+
+<div class="info-bar">
+    <span class="promo-text">
+        Imbattable en prix. Inarrêtable en promo. Express in livraison
+    </span>
+
+    <span class="social-icons">
+        <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </span>
+
+    <span class="other-links">
+        <a href="#" id="btnCU">Contact Us </a>
+        <a href="#" id="btnPN">A propos de nous</a>
+        <a href="#" id="btnFAS">FAQs</a>
+    </span>
+</div>
+
+<nav class="main-nav">
+    <a href="#" class="logo">
+        <span class="logo-primary">HW</span>
+        <span class="logo-secondary">Cosmetic Store</span>
+    </a>
+
+    <ul class="nav-links">
+        <li><a href="#" id="btnaccueil">Accueil</a></li>
+        <li><a href="#" id="btnvisage">Visage</a></li>
+        <li><a href="#" id="btncorps">Corps</a></li>
+    </ul>
+<div class="header-icons">
+    <a href="#"><i class="fas fa-search" id="recherche"></i></a>
+    <a href="#"><i class="fas fa-user" id="btncompte"></i></a>
+    <a href="#"><i class="fas fa-shopping-cart" id="btnPanier"></i></a>
+  </div>
+
+</nav>
+
+<section class="page-title">
+  <h2>Produits pour Peau Sèche</h2>
+  <img src="/frontend/assets/sech.png" class="page-image" alt="Peau sèche">
+  <p>Hydratation • Nutrition • Réparation</p>
+</section>
+
+<section class="products-container">
+<div class="product-grid">
+
+<!-- 1 -->
+<div class="product-card" id="product-1">
+<img src="/frontend/assets/mas1.png">
+<div class="product-info">
+<h3>Bio-Collagen Real Deep Mask</h3>
+<p>Masque intensif pour réparer la peau sèche.</p>
+<div class="details">
+<b>Composants :</b> Collagène, acide hyaluronique<br>
+<b>Utilisation :</b> 1–2 fois/semaine, 15 min<br>
+<b>Détails :</b> Améliore élasticité et douceur<br>
+<b>Conseils :</b> Appliquer sur peau propre pour une hydratation maximale
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">170 dh</div>
+<button class="btn-cart" data-product-id="1">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="product-card" id="product-2">
+<img src="/frontend/assets/n.png">
+<div class="product-info">
+<h3>Neutrogena Hydro Boost</h3>
+<p>Hydratation immédiate longue durée.</p>
+<div class="details">
+<b>Composants :</b> Acide hyaluronique<br>
+<b>Utilisation :</b> Après nettoyage<br>
+<b>Détails :</b> Texture gel légère<br>
+<b>Conseils :</b> Peut être utilisé sous le maquillage pour confort toute la journée
+</div>
+<div class="rating">★★★★★</div>
+<div class="price">250 dh</div>
+<button class="btn-cart" data-product-id="2">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="product-card" id="product-3">
+<img src="/frontend/assets/ms3.png">
+<div class="product-info">
+<h3>Ceramidin Mask</h3>
+<p>Renforce la barrière cutanée et protège contre le dessèchement.</p>
+<div class="details">
+<b>Composants :</b> Céramides, panthénol<br>
+<b>Utilisation :</b> 1 fois/semaine<br>
+<b>Détails :</b> Anti-dessèchement<br>
+<b>Conseils :</b> Convient aux peaux très sèches et sensibles
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">49 dh</div>
+<button class="btn-cart" data-product-id="3">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="product-card" id="product-4">
+<img src="/frontend/assets/cerave.png">
+<div class="product-info">
+<h3>CeraVe Hydrating Cleanser</h3>
+<p>Nettoyant doux non moussant pour peaux sèches.</p>
+<div class="details">
+<b>Composants :</b> Céramides, glycérine<br>
+<b>Utilisation :</b> Matin & soir<br>
+<b>Détails :</b> Sans parfum<br>
+<b>Conseils :</b> Utiliser avec de l’eau tiède pour préserver la barrière cutanée
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">150 dh</div>
+<button class="btn-cart" data-product-id="4">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="product-card" id="product-5">
+<img src="/frontend/assets/avene.png">
+<div class="product-info">
+<h3>Crème Avène Peau Sèche</h3>
+<p>Hydratation quotidienne pour peaux sensibles.</p>
+<div class="details">
+<b>Composants :</b> Eau thermale Avène<br>
+<b>Utilisation :</b> Matin/soir<br>
+<b>Détails :</b> Peaux sensibles<br>
+<b>Conseils :</b> Appliquer après la douche pour maximiser l’hydratation
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">230 dh</div>
+<button class="btn-cart" data-product-id="5">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="product-card" id="product-6">
+<img src="/frontend/assets/5.png">
+<div class="product-info">
+<h3>Farmstay Hyaluronic Cream</h3>
+<p>Hydratation profonde.</p>
+<div class="details">
+<b>Composants :</b> Hyaluronic Acid<br>
+<b>Utilisation :</b> Quotidienne<br>
+<b>Détails :</b> Effet repulpant<br>
+<b>Conseils :</b> Appliquer sur peau légèrement humide pour un meilleur effet
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">190 dh</div>
+<button class="btn-cart" data-product-id="6">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 7 -->
+<div class="product-card" id="product-7">
+<img src="/frontend/assets/CLARINS.png">
+<div class="product-info">
+<h3>Clarins Huile Santal</h3>
+<p>Huile nourrissante intense.</p>
+<div class="details">
+<b>Composants :</b> Bois de santal<br>
+<b>Utilisation :</b> Le soir<br>
+<b>Détails :</b> Réparatrice<br>
+<b>Conseils :</b> Masser doucement sur peau sèche avant le coucher
+</div>
+<div class="rating">★★★★★</div>
+<div class="price">390 dh</div>
+<button class="btn-cart" data-product-id="7">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 8 -->
+<div class="product-card" id="product-8">
+<img src="/frontend/assets/image.png">
+<div class="product-info">
+<h3>Sensilis Hydra Essence</h3>
+<p>Crème hydratante riche pour peaux sèches.</p>
+<div class="details">
+<b>Composants :</b> Vitamine E<br>
+<b>Utilisation :</b> Quotidienne<br>
+<b>Détails :</b> Anti-irritation<br>
+<b>Conseils :</b> Appliquer matin et soir sur peau propre
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">210 dh</div>
+<button class="btn-cart" data-product-id="8">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 9 -->
+<div class="product-card" id="product-9">
+<img src="/frontend/assets/J.png">
+<div class="product-info">
+<h3>Beauty of Joseon Eye Serum</h3>
+<p>Sérum contour des yeux anti-rides.</p>
+<div class="details">
+<b>Composants :</b> Ginseng, Retinal<br>
+<b>Utilisation :</b> Soir<br>
+<b>Détails :</b> Lisse et raffermit le contour des yeux<br>
+<b>Conseils :</b> Tapoter doucement pour faire pénétrer
+</div>
+<div class="rating">★★★★★</div>
+<div class="price">280 dh</div>
+<button class="btn-cart" data-product-id="9">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 10 -->
+<div class="product-card" id="product-10">
+<img src="/frontend/assets/NUXE.png">
+<div class="product-info">
+<h3>Nuxe Nuxuriance Ultra</h3>
+<p>Soin anti-âge global.</p>
+<div class="details">
+<b>Composants :</b> Cellules bi-florales<br>
+<b>Utilisation :</b> Matin & soir<br>
+<b>Détails :</b> Peau nourrie et éclatante<br>
+<b>Conseils :</b> Convient pour toutes peaux sèches ou matures
+</div>
+<div class="rating">★★★★★</div>
+<div class="price">520 dh</div>
+<button class="btn-cart" data-product-id="10">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 11 -->
+<div class="product-card" id="product-11">
+<img src="/frontend/assets/ziaja.png">
+<div class="product-info">
+<h3>Ziaja Med SPF50+</h3>
+<p>Protection solaire pour peau sèche.</p>
+<div class="details">
+<b>Composants :</b> Filtres UV<br>
+<b>Utilisation :</b> Avant exposition au soleil<br>
+<b>Détails :</b> Haute protection<br>
+<b>Conseils :</b> Renouveler toutes les 2h si exposition prolongée
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">160 dh</div>
+<button class="btn-cart" data-product-id="11">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 12 -->
+<div class="product-card" id="product-12">
+<img src="/frontend/assets/creaven.png">
+<div class="product-info">
+<h3>Crème Hydratante CeraVe 177ml</h3>
+<p>Hydratation longue durée pour peaux très sèches.</p>
+<div class="details">
+<b>Composants :</b> Céramides, acide hyaluronique<br>
+<b>Utilisation :</b> Matin et soir<br>
+<b>Détails :</b> Texture riche, répare la barrière cutanée<br>
+<b>Conseils :</b> Appliquer sur peau propre pour confort optimal
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">180 dh</div>
+<button class="btn-cart" data-product-id="12">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 13 -->
+<div class="product-card" id="product-13">
+<img src="/frontend/assets/cetaphil.png">
+<div class="product-info">
+<h3>Cetaphil Daily Facial Moisturizer SPF 50</h3>
+<p>Hydrate tout en protégeant du soleil.</p>
+<div class="details">
+<b>Composants :</b> Vitamine E, filtres SPF<br>
+<b>Utilisation :</b> Matin<br>
+<b>Détails :</b> Texture légère non grasse<br>
+<b>Conseils :</b> Appliquer avant exposition au soleil
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">220 dh</div>
+<button class="btn-cart" data-product-id="13">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 14 -->
+<div class="product-card" id="product-14">
+<img src="/frontend/assets/cle.png">
+<div class="product-info">
+<h3>Joseon Ginseng Cleansing Oil</h3>
+<p>Huile démaquillante nourrissante.</p>
+<div class="details">
+<b>Composants :</b> Ginseng, huiles végétales<br>
+<b>Utilisation :</b> Masser sur peau sèche puis rincer<br>
+<b>Détails :</b> Démaquille en douceur<br>
+<b>Conseils :</b> Idéal pour peaux sèches et sensibles
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">250 dh</div>
+<button class="btn-cart" data-product-id="14">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 15 -->
+<div class="product-card" id="product-15">
+<img src="/frontend/assets/clini.png">
+<div class="product-info">
+<h3>Clinique Moisture Surge 100H Auto-Replenishing Hydrator</h3>
+<p>Hydratation continue jusqu'à 100h.</p>
+<div class="details">
+<b>Composants :</b> Aloe vera, eau glacée<br>
+<b>Utilisation :</b> Matin et soir<br>
+<b>Détails :</b> Texture gel-crème rafraîchissante<br>
+<b>Conseils :</b> Convient pour peaux sèches et mixtes
+</div>
+<div class="rating">★★★★★</div>
+<div class="price">280 dh</div>
+<button class="btn-cart" data-product-id="15">Ajouter au panier</button>
+</div>
+</div>
+
+<!-- 16 -->
+<div class="product-card" id="product-16">
+<img src="/frontend/assets/clinque .png">
+<div class="product-info">
+<h3>Clinique Cleansing Balm / Baume</h3>
+<p>Démaquille et nettoie en douceur.</p>
+<div class="details">
+<b>Composants :</b> Huiles douces, beurre de karité<br>
+<b>Utilisation :</b> Masser sur visage sec puis rincer<br>
+<b>Détails :</b> Démaquille efficacement sans dessécher<br>
+<b>Conseils :</b> Idéal pour peaux sèches ou sensibles
+</div>
+<div class="rating">★★★★☆</div>
+<div class="price">290 dh</div>
+<button class="btn-cart" data-product-id="16">Ajouter au panier</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="advantages">
+    <div class="adv-container">
+        <div class="adv-box">
+            <div class="adv-icon">🚚</div>
+            <h3>LIVRAISON GRATUITE</h3>
+            <p>Pour toute commande supérieure à 1000 Dh.</p>
+        </div>
+        <div class="adv-box">
+            <div class="adv-icon">💳</div>
+            <h3>PAIEMENT À LA LIVRAISON</h3>
+            <p>Achetez en ligne et payez en espèces à votre porte.</p>
+        </div>
+        <div class="adv-box">
+            <div class="adv-icon">🛡️</div>
+            <h3>GARANTIE TOTALE</h3>
+            <p>Bénéficiez de 7 jours de garantie sur tous nos produits.</p>
+        </div>
+    </div>
+</section>
+
+<footer>© 2026 – Cosmetic Store</footer>
+
+<script src="/frontend/src/controller/t.js"></script>
+<script src="/frontend/src/controller/code.js"></script>
+
+</body>
+</html>

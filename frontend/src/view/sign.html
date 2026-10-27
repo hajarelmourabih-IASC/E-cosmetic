@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-cosmetic Shop</title>
+     <link rel="stylesheet" href="/frontend/src/css/accueil.css">
+     <link rel="stylesheet" href="/frontend/src/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="livraison-bar">
+    <span class="arrow" id="prev">&lt;</span>
+
+    <span class="text" id="message" data-alt="Livraison partout au Maroc ">
+        Livraison gratuite pour les commandes supérieures à 1500 DH.
+    </span>
+
+    <span class="arrow" id="next">&gt;</span>
+</div>
+ <div class="info-bar">
+    <span class="promo-text">
+        Imbattable en prix. Inarrêtable en promo. Express in livraison
+    </span>
+
+    <span class="social-icons">
+         <a href="https://wa.me/1234567890" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://facebook.com" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    </span>
+
+    <span class="other-links">
+        <a href="#" id="btnCU">Contact Us </a>
+        <a href="#" id="btnPN">A propos de nous</a>
+        <a href="#" id="btnFAS">FAQs</a>
+    </span>
+</div>
+ <nav class="main-nav">
+    <!-- Logo en texte -->
+    <a href="#" class="logo">
+        <span class="logo-primary">HW</span>
+        <span class="logo-secondary">Cosmetic Store</span>
+    </a>
+
+    <!-- Liens navigation -->
+    <ul class="nav-links">
+        <li><a href="#" id="btnaccueil">Accueil</a></li>
+        <li><a href="#" id="btnvisage">Visage</a></li>
+        
+        <li><a href="#" id="btncorps">Corps</a></li> <li> 
+        
+    </ul>
+
+  <div class="header-icons">
+    <a href="#"><i class="fas fa-search" id="recherche"></i></a>
+    <a href="#"><i class="fas fa-user" id="btncompte"></i></a>
+    <a href="#"><i class="fas fa-shopping-cart" id="btnPanier"></i></a>
+  </div>
+
+</nav>
+
+<section class="register-section">
+    <div class="register-container">
+
+        <h2>Créer un compte DreamShop</h2>
+        <p>Inscrivez-vous pour profiter de nos offres exclusives.</p>
+
+        <form>
+            <input type="text" placeholder="Nom complet"  id="nom" required>
+            <input type="email" placeholder="Adresse e-mail" id="mail" required>
+            <input type="password" placeholder="Mot de passe" id="pass" required>
+            <input type="password" placeholder="Confirmer le mot de passe" id="cfmo" required>
+
+            <button type="submit" id="sub">S’inscrire</button>
+        </form>
+    </div>
+</section>
+<section class="advantages">
+    <div class="adv-container">
+
+        <div class="adv-box">
+            <div class="adv-icon">🚚</div>
+            <h3>LIVRAISON GRATUITE</h3>
+            <p>Pour toute commande supérieure à 1000 Dh.</p>
+        </div>
+
+        <div class="adv-box">
+            <div class="adv-icon">💳</div>
+            <h3>PAIEMENT À LA LIVRAISON</h3>
+            <p>Achetez en ligne et payez en espèces à votre porte.</p>
+        </div>
+
+        <div class="adv-box">
+            <div class="adv-icon">🛡️</div>
+            <h3>GARANTIE TOTALE</h3>
+            <p>Bénéficiez de 7 jours de garantie sur tous nos produits.</p>
+        </div>
+
+    </div>
+</section>
+<footer>© 2026 – Cosmetic Store</footer>
+<script src="/frontend/src/controller/t.js"></script>
+<script src="/frontend/src/controller/sign.js"></script>
+</body>
+</html>

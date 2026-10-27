@@ -1,0 +1,119 @@
+.slide {
+    width: 100%;        /* image prend toute la largeur */
+    height: auto;       /* hauteur proportionnelle */
+    display: none;      /* cachée par défaut */
+}
+
+.slide:first-child {
+    display: block;     /* la première image visible */
+}
+ .welcome-section {
+    text-align: center;        /* centre le texte */
+    margin: 40px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.welcome-section .line1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f08ca0;            /* rose foncé */
+    margin-bottom: 15px;
+}
+
+.welcome-section .line2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #000;               /* noir */
+    margin-bottom: 15px;
+}
+
+.welcome-section .line3 span {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;               /* noir */
+    margin: 0 10px;            /* espace entre les mots */
+}
+ .products-section {
+    display: flex;
+    justify-content: space-between;  /* espace uniforme entre produits */
+    margin: 50px 20px;
+    flex-wrap: nowrap;               /* tous sur une ligne */
+    gap: 20px;                       
+}
+
+.product-card {
+    flex: 1 1 calc(20% - 16px);      
+    max-width: 20%;                   
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Image et icône favoris */
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 300px;       /* image plus grande */
+    object-fit: cover;   /* garde proportions et rempli la boîte */
+}
+
+.favorite {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f08ca0;       
+    font-size: 28px;
+    display: none;        
+}
+
+.product-image:hover .favorite {
+    display: block;       
+}
+
+/* Infos produit */
+.product-info {
+    padding: 15px;
+}
+
+.product-desc {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f08ca0;       /* prix en rose */
+    margin-bottom: 10px;
+}
+
+/* Bouton “Ajouter au panier” en boîte rose */
+.add-cart {
+    background-color: #f08ca0; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;   /* boîte arrondie */
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.add-cart:hover {
+    background-color: #d77289;  /* rose plus foncé au hover */
+    transform: scale(1.05);      /* effet léger */
+}

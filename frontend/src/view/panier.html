@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Mon Panier – Cosmetic Store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="/frontend/src/css/panier.css">
+</head>
+
+<body>
+
+<header class="main-header">
+  <h1>Cosmetic Store</h1>
+  
+   <nav>
+    <a href="#" id="btnaccueil">Accueil</a>
+    <a href="#" id="btnvisage">Visage</a>
+    <a href="#" id="btncorps">Panier</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- LOGO PANIER -->
+  <div class="cart-logo">
+    <div class="logo-box">
+      <img src="/frontend/assets/panier.png" alt="Panier">
+      <h1>MON PANIER</h1>
+    </div>
+  </div>
+
+  <div class="page-title">
+    <h2>Vos produits</h2>
+    <p>Sélectionnés avec amour 💕</p>
+  </div>
+
+  <!-- PANIER -->
+  <div class="cart">
+
+    <div class="free-shipping">
+      Il ne vous manque plus que <strong>1500 dh</strong> pour atteindre la livraison gratuite !
+    </div>
+
+    <div class="empty-cart">
+      <h3>Votre panier est vide.</h3>
+      <p>Ajoutez des produits pour commencer vos achats 💕</p>
+    </div>
+
+    <!-- TABLEAU -->
+    <div class="summary-table">
+      <div class="summary-row">
+        <span>Sous-total</span>
+        <span>0,00 MAD</span>
+      </div>
+      <div class="summary-row">
+        <span>Livraison</span>
+        <span>30,00 MAD</span>
+      </div>
+      <div class="summary-row total">
+        <span>Total</span>
+        <span>30,00 MAD</span>
+      </div>
+    </div>
+
+  </div>
+  <button id="payer">passer commande</button>
+  <!-- AVIS UTILISATEUR -->
+  <div class="review">
+    <h3>Donnez votre avis ⭐</h3>
+    <p>Vous avez déjà acheté chez nous ?</p>
+    <div class="stars" id="stars">
+      <span data-star="1">★</span>
+      <span data-star="2">★</span>
+      <span data-star="3">★</span>
+      <span data-star="4">★</span>
+      <span data-star="5">★</span>
+    </div>
+    <div class="vote-msg" id="voteMsg"></div>
+  </div>
+
+</div>
+
+<footer>
+© 2026 – Cosmetic Store
+</footer>
+
+
+<script src="/frontend/src/controller/panier.js"></script>
+
+
+</body>
+</html>

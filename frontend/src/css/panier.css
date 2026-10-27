@@ -1,0 +1,188 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:Arial,sans-serif;
+  background:#fdf6f0;
+  color:#333;
+}
+
+/* HEADER */
+header.main-header{
+  background:#f7b7c6;
+  color:white;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+nav a{
+  color:white;
+  margin-left:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* CONTAINER */
+.container{
+  max-width:1100px;
+  margin:40px auto;
+  padding:20px;
+}
+
+/* LOGO PANIER */
+.cart-logo{
+  text-align:center;
+  margin-bottom:40px;
+}
+.cart-logo .logo-box{
+  display:inline-flex;
+  align-items:center;
+  gap:20px;
+  background:#fff0f5;
+  padding:25px 55px;
+  border-radius:50px;
+  box-shadow:0 20px 45px rgba(240,123,156,.45);
+}
+.cart-logo img{
+  width:130px;
+}
+.cart-logo h1{
+  color:#f07b9c;
+  font-size:2.6rem;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+/* TITRE */
+.page-title{
+  text-align:center;
+  margin-bottom:30px;
+}
+.page-title h2{
+  color:#f07b9c;
+  font-size:2.2rem;
+}
+.page-title p{
+  color:#e35b82;
+  margin-top:10px;
+  font-weight:600;
+}
+
+/* PANIER */
+.cart{
+  background:white;
+  border-radius:25px;
+  padding:30px;
+  box-shadow:0 12px 30px rgba(0,0,0,.1);
+}
+
+/* MESSAGE LIVRAISON */
+.free-shipping{
+  background:#fff3f6;
+  border-radius:18px;
+  padding:18px;
+  text-align:center;
+  font-weight:700;
+  color:#e35b82;
+  margin-bottom:25px;
+  box-shadow:0 8px 20px rgba(240,123,156,.25);
+}
+
+/* PANIER VIDE */
+.empty-cart{
+  text-align:center;
+  padding:40px 20px;
+  color:#e35b82;
+}
+.empty-cart h3{
+  font-size:1.6rem;
+  margin-bottom:10px;
+}
+.empty-cart p{
+  color:#777;
+}
+
+/* TABLEAU RESUME (comme photo) */
+.summary-table{
+  margin-top:25px;
+  background:#fff0f5;
+  border-radius:20px;
+  padding:25px;
+}
+.summary-row{
+  display:flex;
+  justify-content:space-between;
+  margin:12px 0;
+  font-weight:600;
+}
+.summary-row.total{
+  font-size:1.3rem;
+  color:#f07b9c;
+  border-top:1px solid #f7b7c6;
+  padding-top:12px;
+}
+
+/* AVIS */
+.review{
+  margin-top:40px;
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+.review h3{
+  color:#f07b9c;
+  margin-bottom:10px;
+}
+.stars span{
+  font-size:2rem;
+  color:#ccc;
+  cursor:pointer;
+  transition:.2s;
+}
+.stars span.active{
+  color:#f5b301;
+}
+
+/* MESSAGE VOTE */
+.vote-msg{
+  margin-top:10px;
+  font-weight:600;
+  color:#e35b82;
+}
+
+/* FOOTER */
+footer{
+  margin-top:50px;
+  background:#f7b7c6;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+/* BOUTON COMMANDER */
+#payer {
+  background: linear-gradient(135deg, #ff92b1, #f07b9c);
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(240, 123, 156, 0.35);
+  transition: all 0.3s ease;
+  display: block;
+  margin: 30px auto 0; /* centrer le bouton */
+}
+
+/* Effet hover */
+#payer:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(240, 123, 156, 0.45);
+  background: linear-gradient(135deg, #f07b9c, #ff92b1);
+}
+
+/* Effet active/click */
+#payer:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(240, 123, 156, 0.25);
+}

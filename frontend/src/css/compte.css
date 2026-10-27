@@ -1,0 +1,223 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+    background: linear-gradient(180deg, #ffe6f0, #fff0f7);
+    color: #333;
+}
+
+/* ================= LIVRAISON BAR ================= */
+.livraison-bar {
+    background-color: #ffccd9;
+    color: #800040;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: bold;
+    font-size: 0.95rem;
+    position: relative;
+}
+
+.livraison-bar .arrow {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* ================= INFO BAR ================= */
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcce6;
+    color: #800040;
+    padding: 6px 20px;
+    font-size: 0.9rem;
+}
+
+.info-bar .promo-text {
+    font-style: italic;
+}
+
+.info-bar .social-icons a {
+    margin-left: 10px;
+    color: #800040;
+    transition: transform 0.2s;
+}
+
+.info-bar .social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.info-bar .other-links a {
+    margin-left: 15px;
+    color: #800040;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.info-bar .other-links a:hover {
+    text-decoration: underline;
+}
+
+/* ================= NAVBAR ================= */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #ff99c8;
+    color: white;
+}
+
+.main-nav .logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+}
+
+.main-nav .logo .logo-primary {
+    color: #fff;
+}
+
+.main-nav .logo .logo-secondary {
+    color: #ffe6f0;
+    font-weight: 400;
+}
+
+.main-nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.main-nav .nav-links a:hover {
+    color: #ffe6f0;
+}
+
+.header-icons a {
+    color: white;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+}
+
+.header-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* ================= MON COMPTE ================= */
+h3 {
+    text-align: center;
+    margin: 25px 0;
+    color: #800040;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+h3::after {
+    content: "💖";
+    margin-left: 10px;
+}
+
+/* ================= HISTORY ================= */
+.history {
+    background-color: #fff0f7;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 153, 200, 0.4);
+}
+
+#userInfo {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+#orders {
+    margin-top: 15px;
+}
+
+.history button {
+    background-color: #ff99c8;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px 5px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.95rem;
+}
+
+.history button:hover {
+    background-color: #ff66aa;
+    transform: scale(1.05);
+}
+
+/* ================= ADVANTAGES ================= */
+.advantages {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.adv-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.adv-box {
+    background-color: #ffccde;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 8px rgba(255, 102, 170, 0.3);
+    position: relative;
+}
+
+.adv-box .adv-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.adv-box h3 {
+    color: #800040;
+    margin-bottom: 10px;
+}
+
+.adv-box p {
+    font-size: 0.95rem;
+    color: #4d004d;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #ff99c8;
+    color: white;
+    font-weight: 500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 0.95rem;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Cosmetic Store - Corps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/frontend/src/css/VisageCorps.css">
+<link rel="stylesheet" href="/frontend/src/css/visage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- ================= LIVRAISON BAR ================= -->
+<div class="livraison-bar">
+  <span class="arrow" id="prev">&lt;</span>
+  <span class="text" id="message" data-alt="Livraison partout au Maroc">
+    Livraison gratuite pour les commandes supérieures à 1500 DH.
+  </span>
+  <span class="arrow" id="next">&gt;</span>
+</div>
+
+<!-- ================= INFO BAR ================= -->
+<div class="info-bar">
+  <span class="promo-text">
+    Imbattable en prix. Inarrêtable en promo. Express en livraison
+  </span>
+  <span class="social-icons">
+    <a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  </span>
+  <span class="other-links">
+    <a href="#" id="btnCU">Contact Us</a>
+    <a href="#" id="btnPN">À propos</a>
+    <a href="#" id="btnFAS">FAQs</a>
+  </span>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="main-nav">
+  <a href="#" class="logo">
+    <span class="logo-primary">HW</span>
+    <span class="logo-secondary">Cosmetic Store</span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#" id="btnaccueil">Accueil</a></li>
+    <li><a href="#" id="btnvisage">Visage</a></li>
+    <li><a href="#" id="btncorps">Corps</a></li>
+  </ul>
+
+  <div class="header-icons">
+    <a href="#"><i class="fas fa-search" id="recherche"></i></a>
+    <a href="#"><i class="fas fa-user" id="btncompte"></i></a>
+    <a href="#"><i class="fas fa-shopping-cart" id="btnPanier"></i></a>
+  </div>
+
+</nav>
+
+<div class="main-container">
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="sidebar">
+    <h3>Type de produit</h3>
+    <a href="#cremes" id="creme">Crèmes</a>
+    <a href="#mains" id="main">Mains</a>
+    <a href="#pieds" id="pied">Pieds</a>
+    <a href="#dentaire" id="dentaire">Soins dentaires</a>
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+    <div class="hero">
+      <img src="/frontend/assets/cremes.jpg" alt="Peau">
+      <img src="/frontend/assets/mains.jpg" alt="Masque">
+      <img src="/frontend/assets/pieds.jpg" alt="Beauté">
+      <img src="/frontend/assets/smile.jpg" alt="Beauté">
+    </div>
+
+    <div id="recommender">
+      Vos recommandations personnalisées apparaîtront ici !
+    </div>
+
+    <!-- ================== Crèmes ================== -->
+    <section class="products" id="cremes" data-corps="cremes">
+      <h2>Crémes</h2>
+      <div class="product-grid">
+        <div class="product-card" data-id="54" data-skin="seche">
+          <img src="/frontend/assets/creme1.jpg" alt="CETAPHIL Crème Hydratante">
+          <h4>CETAPHIL Crème Hydratante 250g</h4>
+          <p>Hydratation intense et durable pour les peaux sèches et sensibles.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-creme">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="55" data-corps="cremes">
+          <img src="/frontend/assets/creme2.jpg" alt="SA Crème Anti-Rugosités">
+          <h4>SA Crème Anti-Rugosités</h4>
+          <p>Aide à lisser la peau rugueuse et à restaurer la barrière cutanée.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️⭐️</div>
+          <button class="btn-consult" id="consult-creme">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="56" data-corps="cremes">
+          <img src="/frontend/assets/creme3.jpg" alt="Le Petit Marseillais Lait Corps">
+          <h4>Le Petit Marseillais Lait Corps Nutrition</h4>
+          <p>Nourrit intensément la peau et la laisse douce et souple.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-creme ">Consulter</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== Mains ================== -->
+    <section class="products" id="mains">
+      <h2>Les mains</h2>
+      <div class="product-grid">
+        <div class="product-card" data-id="57" data-corps="mains">
+          <img src="/frontend/assets/main1.jpg" alt="Neutrogena Crème Mains">
+          <h4>Neutrogena Crème Mains Concentrée L'originale</h4>
+          <p>Hydratation intense et réparation des mains très sèches et abîmées.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-main">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="58" data-corps="mains">
+          <img src="/frontend/assets/main2.jpg" alt="Eucerin UreaRepair Plus">
+          <h4>Eucerin - UreaRepair Plus Crème Mains 5% d'Urée</h4>
+          <p>Hydrate intensément et soulage immédiatement les mains très sèches.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️⭐️</div>
+          <button class="btn-consult" id="consult-main">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="59" data-corps="mains">
+          <img src="/frontend/assets/main3.jpg" alt="Balea Urea HANDCREME">
+          <h4>Balea Urea HANDCREME</h4>
+          <p>Crème mains enrichie en urée pour une hydratation intense et durable.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-main3">Consulter</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== Pieds ================== -->
+    <section class="products" id="pieds" data-corps="pieds">
+      <h2>Les pieds</h2>
+      <div class="product-grid">
+        <div class="product-card" data-id="60">
+          <img src="/frontend/assets/pied1.jpg" alt="Spa Gel Socks">
+          <h4>Spa Gel Socks, Chaussette avec Gel Hydratant</h4>
+          <p>Hydrate et adoucit intensément les pieds secs grâce à ses chaussettes imprégnées de gel.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-pieds">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="61" data-corps="pieds">
+          <img src="/frontend/assets/pied2.jpg" alt="UreaRepair PLUS">
+          <h4>UreaRepair PLUS Mousse Pour Les Pieds 10 % Urée</h4>
+          <p>Hydrate intensément, soulage la sécheresse et adoucit les pieds rugueux</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️⭐️</div>
+          <button class="btn-consult" id="consult-pieds">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="62" data-corps="pieds">
+          <img src="/frontend/assets/pied3.jpg" alt="Caudalie Crème Beauté des Pieds">
+          <h4>Caudalie Crème Beauté des Pieds</h4>
+          <p>Hydrate, adoucit et apaise les pieds fatigués tout en laissant un parfum délicat.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-pieds">Consulter</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== Soins dentaires ================== -->
+    <section class="products" id="dentaire" data-corps="dentaire">
+      <h2>Les soins dentaires</h2>
+      <div class="product-grid">
+        <div class="product-card" data-id="63">
+          <img src="/frontend/assets/dentaire1.jpg" alt="Hismile V34">
+          <h4>Hismile - V34 Colour Corrector Serum</h4>
+          <p>Un sérum correcteur de teinte qui illumine et unifie le teint pour un sourire éclatant.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-dentaire">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="64" data-corps="dentaire">
+          <img src="/frontend/assets/dentaire2.jpg" alt="Buccotherm Dentifrice">
+          <h4>Buccotherm Dentifrice Blancheur Au Charbon</h4>
+          <p>Aide à éliminer les taches superficielles pour des dents plus blanches et un sourire éclatant.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️⭐️</div>
+          <button class="btn-consult" id="consult-dentaire">Consulter</button>
+        </div>
+
+        <div class="product-card" data-id="65" data-corps="dentaire">
+          <img src="/frontend/assets/dentaire3.jpg" alt="BUCCOTHERM Gel dentifrice">
+          <h4>BUCCOTHERM Gel dentifrice Gencives Sensibles</h4>
+          <p>Protège et apaise les gencives sensibles tout en assurant un nettoyage doux des dents.</p>
+          <div class="reviews">⭐️⭐️⭐️⭐️☆</div>
+          <button class="btn-consult" id="consult-dentaire">Consulter</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== ADVANTAGES ================== -->
+    <section class="advantages">
+      <div class="adv-container">
+        <div class="adv-box">
+          <div class="adv-icon">🚚</div>
+          <h3>LIVRAISON GRATUITE</h3>
+          <p>Pour toute commande supérieure à 1000 Dh.</p>
+        </div>
+
+        <div class="adv-box">
+          <div class="adv-icon">💳</div>
+          <h3>PAIEMENT À LA LIVRAISON</h3>
+          <p>Payer en espèces à la réception.</p>
+        </div>
+
+        <div class="adv-box">
+          <div class="adv-icon">🛡️</div>
+          <h3>GARANTIE TOTALE</h3>
+          <p>7 jours de garantie.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<footer>
+<p>© 2026 Cosmetic Store</p>
+</footer>
+<script src="/frontend/src/controller/t.js"></script>
+<script src="/frontend/src/controller/corps.js"></script>
+
+</body>
+</html>

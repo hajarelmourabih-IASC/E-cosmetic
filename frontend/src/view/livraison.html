@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Commander – Cosmetic Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/frontend/src/css/livraison.css">
+</head>
+<body>
+
+<div class="overlay">
+  <div class="modal">
+
+    <div class="modal-header">
+      <h2>Veuillez remplir le formulaire pour commander</h2>
+      <button class="close" id="btnclose">×</button>
+    </div>
+
+    <form id="orderForm">
+
+      <div class="row">
+        <div class="field">
+          <label>Nom et prénom *</label>
+          <input type="text" required placeholder="Nom complet">
+        </div>
+
+        <div class="field">
+          <label>Téléphone *</label>
+          <input type="tel" required placeholder="num de Téléphone">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Ville *</label>
+        <input type="text" id="city" required placeholder="Fès, Casablanca...">
+      </div>
+
+      <div class="shipping">
+        <p><strong>Options d'expédition</strong></p>
+        <label>
+          <input type="radio" name="shipping" value="20" checked>
+          Casablanca — 20 dh
+        </label>
+        <label>
+          <input type="radio" name="shipping" value="30">
+          Autres villes — 30 dh
+        </label>
+      </div>
+
+      <div class="field">
+        <label>Adresse *</label>
+        <input type="text" required placeholder="العنوان">
+      </div>
+
+      <div class="field">
+        <label>Email (optionnel)</label>
+        <input type="email" placeholder="example@gmail.com">
+      </div>
+
+      <button type="submit" class="buy-btn">
+        Achetez — <span id="total">30.00</span> dh
+      </button>
+
+    </form>
+
+  </div>
+</div>
+
+<script src="/frontend/src/controller/livraison.js"></script>
+</body>
+</html>
